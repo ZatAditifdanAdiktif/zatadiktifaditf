@@ -700,76 +700,76 @@ function isiradio(){
             pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
         } 
     }
-    if (soal_tampil==randArray[5]){
-        noomor.innerText = "6";
-        if (jwb_rand[5]=="a"){
-            pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[5]=="b"){
-            pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[5]=="c"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
-        }else  if (jwb_rand[5]=="d"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
-        }else {
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        } 
-    }
-    if (soal_tampil==randArray[6]){
-        noomor.innerText = "7";
-        if (jwb_rand[6]=="a"){
-            pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[6]=="b"){
-            pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[6]=="c"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
-        }else  if (jwb_rand[6]=="d"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
-        }else {
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        } 
-    }
-    if (soal_tampil==randArray[7]){
-        noomor.innerText = "8";
-        if (jwb_rand[7]=="a"){
-            pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[7]=="b"){
-            pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[7]=="c"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
-        }else  if (jwb_rand[7]=="d"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
-        }else {
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        } 
-    }
-    if (soal_tampil==randArray[8]){
-        noomor.innerText = "9";
-        if (jwb_rand[8]=="a"){
-            pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[8]=="b"){
-            pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[8]=="c"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
-        }else  if (jwb_rand[8]=="d"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
-        }else {
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        } 
-    }
-    if (soal_tampil==randArray[9]){
-        noomor.innerText = "10";
-        if (jwb_rand[9]=="a"){
-            pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[9]=="b"){
-            pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
-        }else  if (jwb_rand[9]=="c"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
-        }else  if (jwb_rand[9]=="d"){
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
-        }else {
-            pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
-        } 
-    }
+    // if (soal_tampil==randArray[5]){
+    //     noomor.innerText = "6";
+    //     if (jwb_rand[5]=="a"){
+    //         pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[5]=="b"){
+    //         pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[5]=="c"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
+    //     }else  if (jwb_rand[5]=="d"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
+    //     }else {
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     } 
+    // }
+    // if (soal_tampil==randArray[6]){
+    //     noomor.innerText = "7";
+    //     if (jwb_rand[6]=="a"){
+    //         pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[6]=="b"){
+    //         pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[6]=="c"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
+    //     }else  if (jwb_rand[6]=="d"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
+    //     }else {
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     } 
+    // }
+    // if (soal_tampil==randArray[7]){
+    //     noomor.innerText = "8";
+    //     if (jwb_rand[7]=="a"){
+    //         pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[7]=="b"){
+    //         pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[7]=="c"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
+    //     }else  if (jwb_rand[7]=="d"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
+    //     }else {
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     } 
+    // }
+    // if (soal_tampil==randArray[8]){
+    //     noomor.innerText = "9";
+    //     if (jwb_rand[8]=="a"){
+    //         pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[8]=="b"){
+    //         pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[8]=="c"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
+    //     }else  if (jwb_rand[8]=="d"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
+    //     }else {
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     } 
+    // }
+    // if (soal_tampil==randArray[9]){
+    //     noomor.innerText = "10";
+    //     if (jwb_rand[9]=="a"){
+    //         pilihan1.checked = true; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[9]=="b"){
+    //         pilihan1.checked = false; pilihan2.checked = true; pilihan3.checked = false; pilihan4.checked = false;
+    //     }else  if (jwb_rand[9]=="c"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = true; pilihan4.checked = false;
+    //     }else  if (jwb_rand[9]=="d"){
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = true;
+    //     }else {
+    //         pilihan1.checked = false; pilihan2.checked = false; pilihan3.checked = false; pilihan4.checked = false;
+    //     } 
+    // }
 
     console.log(soal_tampil);
     console.log(randArray);
@@ -998,11 +998,11 @@ function createTask(sekolah, nama, kelas, waktunya, hari, simpan_jwb,skor,benar_
 
 function selesai(){
     var jwb=0;
-    for (let b=0;b<10;b++){
+    for (let b=0;b<5;b++){
       jwb=jwb+total_terjawab[b];
     }
 
-    if (jwb != 10){
+    if (jwb != 5){
         alert("Masih ada soal yang belum terjawab");
     }else{
         
