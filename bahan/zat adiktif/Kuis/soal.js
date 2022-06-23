@@ -86,7 +86,7 @@ function mulai() {
     if (sekolah.value != "0") {
 
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 2 Banjarmasin";
+            sekolahfix = "SMP Negeri 8 Banjarmasin";
         } 
         cek += 1;
     }
@@ -996,11 +996,11 @@ function createTask(sekolah, nama, kelas, waktunya, hari, simpan_jwb,skor,benar_
 
 function selesai(){
     var jwb=0;
-    for (let b=0;b<10;b++){
+    for (let b=0;b<5;b++){
       jwb=jwb+total_terjawab[b];
     }
 
-    if (jwb != 10){
+    if (jwb != 5){
         alert("Masih ada soal yang belum terjawab");
     }else{
         
