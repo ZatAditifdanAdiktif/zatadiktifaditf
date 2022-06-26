@@ -6,7 +6,7 @@
 
 }
 .garis{
-  background-color: rgb(23, 77, 77);
+  background-color: rgb(52, 53, 53);
   border-radius: 5px;
   height: 1px;
   margin-top: 5px;
@@ -16,12 +16,12 @@
   width: 200px;
   padding:5px;
   margin-left: 5px;
-  background-color: rgb(129, 230, 230);
+  background-color: rgb(41, 41, 41);
   color:rgb(0, 0, 0);
   border-radius: 5px;
 }
 .pilihan2:hover{
-  background-color: rgb(107, 197, 197);
+  background-color: rgb(37, 37, 37);
   color:rgb(0, 0, 0);
 }
 .pilihan{
@@ -30,7 +30,7 @@
   padding:4px;
   padding-left: 10px;
   margin-top: 3px;
-  background-color: rgb(19, 141, 141);
+  background-color: rgb(44, 44, 44);
   color:white;
   border-radius: 5px;
 }
@@ -41,7 +41,7 @@
   padding:4px;
   padding-left: 10px;
   margin-top: 10px;
-  background-color: rgb(13, 107, 107);
+  background-color: rgb(39, 39, 39);
   color:white;
   border-radius: 5px;
  
@@ -54,7 +54,7 @@
   min-width: 300px;
   padding:5px;
   margin-top: 3px;
-  background-color: rgb(16, 124, 124);
+  background-color: rgb(51, 51, 51);
   color:white;
   border-radius: 5px;
 }
@@ -292,7 +292,7 @@ button a{
   border-radius: 5px 5px 5px 5px;
   padding: 2px;
   min-width: 30px;
-  background-color:  #0aa2df; 
+  background-color:  #3b3b3b; 
 }
 .btnangka:hover{
   color: aliceblue;

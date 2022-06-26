@@ -13,7 +13,7 @@
 }
 .border{
 	border-radius: 5px 5px 5px 5px;
-   background: #257C9F;
+   background: #373c3e;
    color:white;
    height:20%;
 }
@@ -23,7 +23,7 @@
     color: white;
     padding-top: 2px;
     padding-left: 2%;
-    background-color: #007cad;
+    background-color: #292929;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
     margin-bottom: 2px;
@@ -94,8 +94,8 @@ h3 img{
 }
 .sub3{
     border-radius: 5px 5px 5px 5px;
-    border-color: #257C9F;
-    background-color:#007cad;
+    border-color: #ffffff;
+    background-color:#313131;
     color: white;
     border-style: solid;
     border-width: 1px; 
