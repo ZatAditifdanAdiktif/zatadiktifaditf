@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zat Aditif dan Zat Adiktif</title>
+    <link rel="stylesheet" href="../navigasi.css">
+    <link rel="stylesheet" href="../../border.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  
+  <!--header untuk judul sub bab-->
+  <div class="header">
+      <center>ZAT ADITIF DAN ZAT ADIKTIF</center>
+  </div>
+  <!-- navigasi sidebar (sebagai navigasi di sebelah kiri)-->
+  <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+      <nav class="sidebar">
+        <div><img src="../gambar/favicon.png"></div>
+        <ul>
+          <li class="beranda"><a href="../../index.html">Beranda</a></li>
+          <li>
+            <a href="#" style=" color: rgb(255, 255, 255); background: #2b2b2b;" class="migrasi">A. Zat Aditif
+              <span class="fas fa-caret-down first"></span>
+            </a>
+            <ul class="migrasi-tampil">
+              <li><a href="../zat aditif/1.html">Materi</a></li>
+              <li><a href="../zat aditif/Kuis/kuis1.html">Kuis 1</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#" class="kemagnetan">B. Zat Adiktif
+              <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="kemagnetan-tampil">
+              <li><a href="../zat adiktif/1/1.html">Materi</a></li>
+              <li><a href="../zat adiktif/Kuis/kuis2.html">Kuis 2</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="produk">C. Upaya Pencegahan Dari Narkoba
+              <span class="fas fa-caret-down tiga"></span>
+            </a>
+            <ul class="produk-tampil">
+              <li><a href="../upaya pencegahan/1.html">Materi</a></li>
+              <li><a href="../upaya pencegahan/Kuis/kuis3.html">Kuis 3</a></li>
+            </ul>
+          </li>
+          <li ><a href="../Evaluasi/eva.html">EVALUASI</a></li>
+
+        </ul>
+    </nav>
+    <!-- javascript untuk navigasi-->
+    <script>
+      function drop(){
+        $('nav ul .migrasi-tampil').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+       }
+    </script>
+    <!--class untuk konten-->
+    <div class="content">
+      <br>
+      <h3><p class="textjudul">APERSEPSI</p></h3>
+      <div class="canvas">
+       
+          <center><img src="" width="430" height="300" style="margin:20px;"/></center>
+          Ketika kita ke Pasar atau belanja di Kantin Sekolah. Kita sering melihat Makanan dan Minuman yang menarik dari tampilan, sehingga muncul rasa pensaran untuk mencoba makanan tersebut.
+          Dan ternyata rasa makanan dan minuman tersebut rasanya enak. Sehingga kita tertarik untuk membeli secara berkala makanan dan minuman tersebut.
+          <br><br>
+          Ketika memilih makanan, Anda akan mudah tertarik karena rasanya enak, warna yang menarik, aroma yang menggungah selera.
+          Agar memenuhi semua itu, Pedagang atau pembuatan makanan menambahkan zat-zat tertentu yang disebut dengan <b> Zat Aditif.</b>
+        
+      </div>
+      
+      
+  
+    
+    <!--untuk mengakses file javascript-->
+    <script src="home.js"></script>
+    <script src="../navigasi.js"></script>
+
+    <!--framework untuk MathJax/latex (untuk menulis rumus)-->
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+
+   <!--footer halaman yang berisi navigasi page halaman-->
+   <div class="--footer">
+    <div class="--navigasibawah">
+      <center>
+        <button >Sebelumnya</button>
+        <a href="1.html"><button class="btn1">1</button></a>
+        <a href="2.html"><button >2</button></a>
+        <a href="2.html"><button >Selanjutnya</button></a>
+      </center>
+      </div>
+    </div>
+   
+  </body>
+</html>
