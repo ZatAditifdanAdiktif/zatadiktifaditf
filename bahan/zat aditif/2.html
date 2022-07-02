@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zat Aditif dan Zat Adiktif</title>
+    <link rel="stylesheet" href="../navigasi.css">
+    <link rel="stylesheet" href="../../border.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  
+  <!--header untuk judul sub bab-->
+  <div class="header">
+      <center>A. ZAT ADITIF DAN JENISNYA</center>
+  </div>
+  <!-- navigasi sidebar (sebagai navigasi di sebelah kiri)-->
+  <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+      <nav class="sidebar">
+        <div><img src="../gambar/favicon.png"></div>
+        <ul>
+          <li class="beranda"><a href="../../index.html">Beranda</a></li>
+          <li>
+            <a href="#" style=" color: rgb(255, 255, 255); background: rgb(175, 132, 13);" class="migrasi">A. Zat Aditif
+              <span class="fas fa-caret-down first"></span>
+            </a>
+            <ul class="migrasi-tampil">
+              <li><a href="../zat aditif/1.html">Materi</a></li>
+              <li><a href="../zat aditif/Kuis/kuis1.html">Kuis 1</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#" class="kemagnetan">2. Zat Adiktif
+              <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="kemagnetan-tampil">
+              <li><a href="../zat adiktif/1/1.html">Materi</a></li>
+              <li><a href="../zat adiktif/Kuis/kuis2.html">Kuis 2</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="produk">3. Upaya Pencegahan Dari Narkoba
+              <span class="fas fa-caret-down tiga"></span>
+            </a>
+            <ul class="produk-tampil">
+              <li><a href="../upaya pencegahan/1.html">Materi</a></li>
+              <li><a href="../upaya pencegahan/Kuis/kuis3.html">Kuis 3</a></li>
+            </ul>
+          </li>
+          <li ><a href="../Evaluasi/eva.html">EVALUASI</a></li>
+
+        </ul>
+    </nav>
+    <!-- javascript untuk navigasi-->
+    <script>
+      function drop(){
+        $('nav ul .migrasi-tampil').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+       }
+    </script>
+    <!--class untuk konten-->
+    <div class="content">
+      <br>  
+      <br>
+      <div class="canvas">
+        <b><h3 id ="pewarna"> 1.1 Pewarna </h3></b> 
+				<p align="justify">
+                <br>
+                <b>Pewarna</b> adalah zat aditif yang ditambahkan untuk meningkatkan warna pada makanan atau minuman.
+                Tujuannya adalah untuk memberi warna pada makanan, meningkatkan daya tarik visual pangan, merangsang indera penglihatan.
+                Pewarna dibagi menjadi 2 yaitu, <b>Pewarna Alami </b> dan <b>Pewarna Buatan</b>.
+				Pewarna alami umumnya aman untuk kesehatan, Diperoleh dari alam, misalnya dari tumbuhan dan hewan. Bahan pewarna alami mudah didapatkan karena berada di sekitar kita. 
+			    </p>
+			    <center>
+			    <img src="../gambar/pewarna1.jpg" width="400" height="400" style="margin:20px;"/>
+			    </center>
+			    <br>
+			    Keunggulan dari pewarna alami adalah rasa dan aroma khasyang tidak diinginkan, warna yang mudah rusak, dan jenisnya terbatas.
+			    <br>
+			    Pewarna buatan diperoleh melalui proses reaksi (sintesis) kimia menggunakan bahan yang berasal dari zat kimia sintesis. Bahan pewarna buatan lebih dipilih karena memiliki banyak keunggulan. Dari harganya yang murah, praktik dalam penggunaan, warnanya yang kuat, banyak jenisnya, dan warna yang tidak mudah rusak.
+			    <center>
+			    <img src="../gambar/pewarnabuatan.jpg" width="300" height="300" style="margin:20px;"/>
+			    </center>
+
+
+
+    
+    <!--untuk mengakses file javascript-->
+    <script src="1.js"></script>
+    <script src="../navigasi.js"></script>
+
+    <!--framework untuk MathJax/latex (untuk menulis rumus)-->
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+
+   <!--footer halaman yang berisi navigasi page halaman-->
+   <div class="--footer">
+    <div class="--navigasibawah">
+      <center>
+        <button >Sebelumnya</button>
+        <a href="1.html"><button class="btn1">1</button></a>
+        <a href="2.html"><button >2</button></a>
+        <a href="2.html"><button >Selanjutnya</button></a>
+      </center>
+      </div>
+    </div>
+   
+  </body>
+</html>
