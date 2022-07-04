@@ -103,7 +103,7 @@
         <b>B. Pewarna buatan (sintesis) </b> 
         <br>
         Pewarna buatan (sitensis) adalah pewarna yang terbuat dari bahan kimia.
-        Keunggulan dari pewarna buatan yaitu harganya murah, warnanya lebih kuat, macam warnanya lebih banyak, dan tidak mudah rusak karena pemanasan.
+        Keunggulan dari pewarna buatan yaitu harganya murah, warnanya lebih kuat, macam warnanya lebih banyak, dan tidak mudah rusak karena pemanasan. Contohnya pada makanan Mie Habang.
         Penggunaan pewarna harus diawasi karena banyak di masyarakat pewarna buatan yang tidak sesuai dengan pertuntukannya.
         Dan bahan-bahan tersebut dapat memicu terjadinya kanker.
         <center>
@@ -112,17 +112,18 @@
           <font size="1"><i> Table 2 "pewarna buatan dan sumbernya"</i></font>
 			    </center>
       </p>
+      <br>
+      <center>
+        <button class="btnvidio" id="tombol1" onclick="selesaibaca()" type="button">Selesai membaca</button>
+      </center>
     </div>
-    <br>
-    <center>
-      <button class="btnvidio" id="tombol1" onclick="selesaibaca()" type="button">Selesai membaca</button>
-    </center>
+    
 
     <div id="latihanhide" style="display:none;">
       <h3> <img src="../gambar/iconpasangkan.png"><p class="textjudul">Yuk Pasangkan ini!</p></h3>
      
        <div class="canvas">
-        Setelah mengamati video di atas kamu pasti telah memahami bagaimana sifat kutub magnet. untuk menguji pemahaman kamu cobalah jawab pertanyaan berikut.
+        Setelah membaca materi di atas kamu pasti telah memahami bagaimana sifat kutub magnet. Untuk menguji pemahaman kamu cobalah jawab pertanyaan berikut.
         <br><br>
           <p><b>Petunjuk :</b></p>
             <ol type="1" style="padding-left: 15px;">
@@ -134,11 +135,11 @@
         <br>
         <div class="canvas" id="pertanyaan1" >
             <center>
-              <b>Kutub Utara dengan kutub selatan atau sebaliknya.</b><br><br>
+              <b>Kelepon memiliki warna hijau, yang di dapat dari ?.</b><br><br>
             <img  src="../zat aditif/1/gambar/hijau.png" width="25%" height="25%"></td>
             <br>
-             <label><input type="radio" name="soal1" id="s1benar" onclick="cek1()"/><span> Tarik-menarik </span></label>
-             <label><input type="radio"  name="soal1" id="s1salah" onclick="cek1()"/><span> Tolak-menolak </span></label>
+             <label><input type="radio" name="soal1" id="s1benar" onclick="cek1()"/><span> Daun Suji </span></label>
+             <label><input type="radio"  name="soal1" id="s1salah" onclick="cek1()"/><span> Buah Pinang </span></label>
               
               <br>
                 <div class="jawaban" id="j1benar" style="display:none; "><img src="../gambar/benar.png"></div>
@@ -147,13 +148,13 @@
         </div> 
         <br>
         <div class="canvas" id="pertanyaan2" style="display: none;">
-            <center>
-          <b>Kutub  selatan dengan kutub selatan.</b><br><br>
-          <img  src="gambar/latihan1-2.png"></td>
+          <center>
+          <b>Buah Naga, Digunakan sebagai pewarna ?</b><br><br>
+          <img  src="../zat aditif/1/gambar/buahnaga.png" width="25%" height="25%"></td>
 
             <br>
-                <label><input type="radio" name="soal2" id="s2salah" onclick="cek2()"/><span> Tarik-menarik </span></label>
-                <label><input type="radio"  name="soal2" id="s2benar" onclick="cek2()"/><span> Tolak-menolak </span></label>
+                <label><input type="radio" name="soal2" id="s2salah" onclick="cek2()"/><span> Warna Coklat </span></label>
+                <label><input type="radio"  name="soal2" id="s2benar" onclick="cek2()"/><span> Warna Merah </span></label>
           <br>
             <div class="jawaban" id="j2benar" style="display:none; "><img src="../../gambar/benar.png"></div>
             <div class="jawaban"  id="j2salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
@@ -162,11 +163,11 @@
       <br>
       <div class="canvas" id="pertanyaan3" style="display: none;">
         <center>
-          <b>Kutub utara dengan kutub utara.</b><br><br>
-          <img  src="gambar/latihan1-3.png"></td>
+          <b>Makanan Mie Habang menggunakan jenis pewarna ?.</b><br><br>
+          <img  src="../zat aditif/1/gambar/miehabang.png" width="25%" height="25%"></td>
           <br>
-                <label><input type="radio" name="soal2" id="s3salah" onclick="cek3()"/><span> Tarik-menarik </span></label>
-                <label><input type="radio"  name="soal2" id="s3benar" onclick="cek3()"/><span> Tolak-menolak </span></label>
+                <label><input type="radio" name="soal2" id="s3salah" onclick="cek3()"/><span> Pewarna Alami </span></label>
+                <label><input type="radio"  name="soal2" id="s3benar" onclick="cek3()"/><span> Pewarna Buatan </span></label>
           <br>
             <div class="jawaban" id="j3benar" style="display:none; "><img src="../../gambar/benar.png"></div>
             <div class="jawaban"  id="j3salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
@@ -191,10 +192,10 @@
     </script>
 
    <!--footer halaman yang berisi navigasi page halaman-->
-   <div class="--footer">
-    <div class="--navigasibawah">
+   <div class="footer">
+    <div class="navigasibawah">
       <center>
-        <button >Sebelumnya</button>
+        <a href="1.html"><button>Sebelumnya</button></a>
         <a href="1.html"><button class="btn1">1</button></a>
         <a href="2.html"><button >2</button></a>
         <a href="2.html"><button >Selanjutnya</button></a>
