@@ -54,8 +54,9 @@ h3{
 }
 h3 img{
     float: left;
-    width: 7%;
+    width: 6%;
     padding: 5px;
+    
 }
 .h3hover{
     background:  #007cad;

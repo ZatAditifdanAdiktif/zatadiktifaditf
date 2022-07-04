@@ -67,7 +67,9 @@
       <br>  
       <br>
       <div class="canvas">
-        <b><h3 id ="pewarna"> 1.1 Pewarna </h3></b> 
+        <div class="borderbab" style="text-align: left;">
+          <b>1.1 Pewarna</b>
+         </div>
 				<p align="justify">
                 <br>
         <b>Pewarna</b> adalah zat aditif yang ditambahkan untuk meningkatkan warna pada makanan atau minuman.
@@ -80,7 +82,9 @@
           <font size="1.5"><i>Contoh Makanan Menggunakan Pewarna</i>  (sumber : pribadi)</font>
 			    </center>
       <br>
-      <h3>Macam-macam Pewarna</h3>
+      <div class="borderbab" style="text-align: left;">
+       <b>Macam-macam Pewarna</b>
+      </div>
       <br>
       <p align="justify">
         <b>A. Pewarna alami</b>
@@ -109,21 +113,72 @@
 			    </center>
       </p>
     </div>
-    
-        <div class="canvas">
-          <h3> <img src="../gambar/iconpasangkan.png"><p class="textjudul">Yuk Pasangkan ini!</p></h3>
+    <br>
+    <center>
+      <button class="btnvidio" id="tombol1" onclick="selesaibaca()" type="button">Selesai membaca</button>
+    </center>
 
-        </div>
+    <div id="latihanhide" style="display:none;">
+      <h3> <img src="../gambar/iconpasangkan.png"><p class="textjudul">Yuk Pasangkan ini!</p></h3>
+     
+       <div class="canvas">
+        Setelah mengamati video di atas kamu pasti telah memahami bagaimana sifat kutub magnet. untuk menguji pemahaman kamu cobalah jawab pertanyaan berikut.
+        <br><br>
+          <p><b>Petunjuk :</b></p>
+            <ol type="1" style="padding-left: 15px;">
+            <li>Soal berjumlah tiga yang terdiri dari gambar dan dua pilihan jawaban.</li>
+            <li>Soal berikutnya akan muncul setelah menjawab soal dengan benar.</li>
+            <li>Pada saat jawaban dipilih, hasil benar atau salah akan langsung terlihat.</li>
+          </ol>
+        </div>    
+        <br>
+        <div class="canvas" id="pertanyaan1" >
+            <center>
+              <b>Kutub Utara dengan kutub selatan atau sebaliknya.</b><br><br>
+            <img  src="../zat aditif/1/gambar/hijau.png" width="25%" height="25%"></td>
+            <br>
+             <label><input type="radio" name="soal1" id="s1benar" onclick="cek1()"/><span> Tarik-menarik </span></label>
+             <label><input type="radio"  name="soal1" id="s1salah" onclick="cek1()"/><span> Tolak-menolak </span></label>
+              
+              <br>
+                <div class="jawaban" id="j1benar" style="display:none; "><img src="../gambar/benar.png"></div>
+                <div class="jawaban"  id="j1salah" style="display:none; "><img src="../gambar/salah.png"></div> 
+             </center>
+        </div> 
+        <br>
+        <div class="canvas" id="pertanyaan2" style="display: none;">
+            <center>
+          <b>Kutub  selatan dengan kutub selatan.</b><br><br>
+          <img  src="gambar/latihan1-2.png"></td>
 
+            <br>
+                <label><input type="radio" name="soal2" id="s2salah" onclick="cek2()"/><span> Tarik-menarik </span></label>
+                <label><input type="radio"  name="soal2" id="s2benar" onclick="cek2()"/><span> Tolak-menolak </span></label>
+          <br>
+            <div class="jawaban" id="j2benar" style="display:none; "><img src="../../gambar/benar.png"></div>
+            <div class="jawaban"  id="j2salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
+         </center>
+      </div> 
+      <br>
+      <div class="canvas" id="pertanyaan3" style="display: none;">
+        <center>
+          <b>Kutub utara dengan kutub utara.</b><br><br>
+          <img  src="gambar/latihan1-3.png"></td>
+          <br>
+                <label><input type="radio" name="soal2" id="s3salah" onclick="cek3()"/><span> Tarik-menarik </span></label>
+                <label><input type="radio"  name="soal2" id="s3benar" onclick="cek3()"/><span> Tolak-menolak </span></label>
+          <br>
+            <div class="jawaban" id="j3benar" style="display:none; "><img src="../../gambar/benar.png"></div>
+            <div class="jawaban"  id="j3salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
+         </center>
+      </div>
 
-    
+    </div>
+    </div>
 
-
-
-    <br><br>
     <!--untuk mengakses file javascript-->
-    <script src="1.js"></script>
     <script src="../navigasi.js"></script>
+    <script src="2.js"></script>
 
     <!--framework untuk MathJax/latex (untuk menulis rumus)-->
     <script type="text/javascript" async
