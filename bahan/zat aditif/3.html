@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zat Aditif dan Zat Adiktif</title>
+    <link rel="stylesheet" href="../navigasi.css">
+    <link rel="stylesheet" href="../../border.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  
+  <!--header untuk judul sub bab-->
+  <div class="header">
+      <center>1. ZAT ADITIF DAN JENISNYA</center>
+  </div>
+  <!-- navigasi sidebar (sebagai navigasi di sebelah kiri)-->
+  <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+      <nav class="sidebar">
+        <div><img src="../gambar/favicon.png"></div>
+        <ul>
+          <li class="beranda"><a href="../../home.html">Beranda</a></li>
+          <li>
+            <a href="#" style=" color: rgb(255, 255, 255); background: rgb(175, 132, 13);" class="migrasi">1. Zat Aditif
+              <span class="fas fa-caret-down first"></span>
+            </a>
+            <ul class="migrasi-tampil">
+              <li><a href="../zat aditif/1.html">Materi</a></li>
+              <li><a href="../zat aditif/Kuis/kuis1.html">Kuis 1</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#" class="kemagnetan">2. Zat Adiktif
+              <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="kemagnetan-tampil">
+              <li><a href="../zat adiktif/1/1.html">Materi</a></li>
+              <li><a href="../zat adiktif/Kuis/kuis2.html">Kuis 2</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="produk">3. Upaya Pencegahan Dari Narkoba
+              <span class="fas fa-caret-down tiga"></span>
+            </a>
+            <ul class="produk-tampil">
+              <li><a href="../upaya pencegahan/1.html">Materi</a></li>
+              <li><a href="../upaya pencegahan/Kuis/kuis3.html">Kuis 3</a></li>
+            </ul>
+          </li>
+          <li ><a href="../Evaluasi/eva.html">EVALUASI</a></li>
+
+        </ul>
+    </nav>
+    <!-- javascript untuk navigasi-->
+    <script>
+      function drop(){
+        $('nav ul .migrasi-tampil').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+       }
+    </script>
+    <!--class untuk konten-->
+    <div class="content">
+      <br>  
+      <br>
+      <div class="canvas">
+        <div class="borderbab" style="text-align: left;">
+          <b>2.1 Pemanis</b>
+         </div>
+				<p align="justify">
+                <br>
+        <b>Pemanis</b> adalah senyawa kimia yang sering ditambahkan dan digunakan untuk keperluan produk olahan pangan.
+        , Industri serta minuman dan makanan kesehatan. Pemanis dipakai untuk menambah rasa manis yang lebih kuat pada bahan makanan.
+        Pemanis dibedakan menjadi dua yaitu <b>pemanis alami</b> dan <b>pemanis buatan</b>. 
+			  </p>
+			    <center>
+			    <img src="../gambar/gulamerah.png" width="400" height="400" style="margin:20px; margin-bottom: -13px;"/>
+          <br>
+          <font size="1.5"><i>Contoh Pemanis Alami : Gula Merah</i>  (sumber : pribadi)</font>
+			    </center>
+      <br>
+      <div class="borderbab" style="text-align: left;">
+       <b>1.2 Macam-macam Pemanis</b>
+      </div>
+      <br>
+      <p align="justify">
+        <b>A. Pemanis alami</b>
+        <br> 
+        Pemanis alami didapat dari bahan-bahan nabati dan hewani.
+        Contohnya seperti : <b>gula pasir</b>, <b>gula tebu</b>, <b>gula merah</b>, <b>madu</b>, dan <b>kulit kayu</b>. 
+        Kelebihan menggunakan pemanis alami adalah tidak menyebabkan efek samping karena dari bahan alami. Dan kekurangan pemanis alami adalah memiliki kalori besar dan dapat menyebabkan kegemukan dan diabetes.
+          <center>
+           
+              <video id="vidio" controls width="250" height="350">
+                <source src="../gambar/cendol.mp4" >
+              </video>
+        
+          <br>
+          <font size="1"><i> Video 1 "Contoh penggunaan Pemanis Alami pada Minuman Cendol"</i></font>
+			    </center>
+      <br><br>
+        <b>B. Pewarna buatan (sintesis) </b> 
+        <br>
+        Pewarna buatan (sitensis) adalah pewarna yang terbuat dari bahan kimia.
+        Keunggulan dari pewarna buatan yaitu harganya murah, warnanya lebih kuat, macam warnanya lebih banyak, dan tidak mudah rusak karena pemanasan. Contohnya pada makanan Mie Habang.
+        Penggunaan pewarna harus diawasi karena banyak di masyarakat pewarna buatan yang tidak sesuai dengan pertuntukannya.
+        Dan bahan-bahan tersebut dapat memicu terjadinya kanker.
+          <center>
+			    <img src="../gambar/pewarnabuatan2.PNG" width="auto" height="auto" style="margin: 5px; margin-bottom: -13px;"/>
+          <br>
+          <font size="1"><i> Table 2 "pewarna buatan dan sumbernya"</i></font>
+			    </center>
+        <br>  
+          Apabila sudah selesai membaca, Klik tombol <b>"selesai membaca"</b> dan scroll ke bagian bawah.
+        </p>
+      <br>
+      <center>
+        <button class="btnvidio" id="tombol1" onclick="selesaibaca()" type="button">Selesai membaca</button>
+      </center>
+    </div>
+    
+
+    <div id="latihanhide" style="display:none;">
+      <h3> <img src="../gambar/iconpasangkan.png"><p class="textjudul">Yuk Pasangkan ini!</p></h3>
+     
+       <div class="canvas">
+        Setelah membaca materi di atas kamu pasti telah memahami bagaimana sifat kutub magnet. Untuk menguji pemahaman kamu cobalah jawab pertanyaan berikut.
+        <br><br>
+          <p><b>Petunjuk :</b></p>
+            <ol type="1" style="padding-left: 15px;">
+            <li>Soal berjumlah tiga yang terdiri dari gambar dan dua pilihan jawaban.</li>
+            <li>Soal berikutnya akan muncul setelah menjawab soal dengan benar.</li>
+            <li>Pada saat jawaban dipilih, hasil benar atau salah akan langsung terlihat.</li>
+          </ol>
+        </div>    
+        <br>
+        <div class="canvas" id="pertanyaan1" >
+            <center>
+              <b>Kelepon memiliki warna hijau, yang di dapat dari ?.</b><br><br>
+            <img  src="../zat aditif/1/gambar/hijau.png" width="25%" height="25%"></td>
+            <br>
+             <label><input type="radio" name="soal1" id="s1benar" onclick="cek1()"/><span> Daun Suji </span></label>
+             <label><input type="radio"  name="soal1" id="s1salah" onclick="cek1()"/><span> Buah Pinang </span></label>
+              
+              <br>
+                <div class="jawaban" id="j1benar" style="display:none; "><img src="../gambar/benar.png"></div>
+                <div class="jawaban"  id="j1salah" style="display:none; "><img src="../gambar/salah.png"></div> 
+             </center>
+        </div> 
+        <br>
+        <div class="canvas" id="pertanyaan2" style="display: none;">
+          <center>
+          <b>Buah Naga, Digunakan sebagai pewarna ?</b><br><br>
+          <img  src="../zat aditif/1/gambar/buahnaga.png" width="25%" height="25%"></td>
+
+            <br>
+                <label><input type="radio" name="soal2" id="s2salah" onclick="cek2()"/><span> Warna Coklat </span></label>
+                <label><input type="radio"  name="soal2" id="s2benar" onclick="cek2()"/><span> Warna Merah </span></label>
+          <br>
+            <div class="jawaban" id="j2benar" style="display:none; "><img src="../../gambar/benar.png"></div>
+            <div class="jawaban"  id="j2salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
+         </center>
+      </div> 
+      <br>
+      <div class="canvas" id="pertanyaan3" style="display: none;">
+        <center>
+          <b>Makanan Mie Habang menggunakan jenis pewarna ?.</b><br><br>
+          <img  src="../zat aditif/1/gambar/miehabang.png" width="25%" height="25%"></td>
+          <br>
+                <label><input type="radio" name="soal2" id="s3salah" onclick="cek3()"/><span> Pewarna Alami </span></label>
+                <label><input type="radio"  name="soal2" id="s3benar" onclick="cek3()"/><span> Pewarna Buatan </span></label>
+          <br>
+            <div class="jawaban" id="j3benar" style="display:none; "><img src="../../gambar/benar.png"></div>
+            <div class="jawaban"  id="j3salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
+         </center>
+      </div>
+
+    </div>
+    </div>
+
+    <!--untuk mengakses file javascript-->
+    <script src="../navigasi.js"></script>
+    <script src="2.js"></script>
+
+    <!--framework untuk MathJax/latex (untuk menulis rumus)-->
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+
+   <!--footer halaman yang berisi navigasi page halaman-->
+   <div class="footer">
+    <div class="navigasibawah">
+      <center>
+        <a href="1.html"><button>Sebelumnya</button></a>
+        <a href="1.html"><button class="btn1">1</button></a>
+        <a href="2.html"><button >2</button></a>
+        <a href="2.html"><button >Selanjutnya</button></a>
+      </center>
+      </div>
+    </div>
+   
+  </body>
+</html>
