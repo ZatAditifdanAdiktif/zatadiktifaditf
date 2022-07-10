@@ -28,7 +28,10 @@
               <span class="fas fa-caret-down first"></span>
             </a>
             <ul class="migrasi-tampil">
-              <li><a href="../zat aditif/1.html">Materi</a></li>
+              <li><a href="../zat aditif/1.html">Pengertian</a></li>
+              <li><a href="../zat aditif/2.html">Pewarna</a></li>
+              <li><a href="../zat aditif/3.html">Pemanis</a></li>
+              <li><a href="../zat aditif/4.html">Pengawet & Penyedap</a></li>
               <li><a href="../zat aditif/Kuis/kuis1.html">Kuis 1</a></li>
             </ul>
           </li>
@@ -82,8 +85,7 @@
         Ini dikarenakan setiap bahan makanan memiliki jangka waktu tertentu untuk menjadi rusak. 
         Dan untuk memperpanjang jangka waktu makanan tersebut, ditambahkan zat aditif yang disebut dengan <b>Pengawet.</b>
 		<br><br>
-        Pengawetan bahan makanan dapat dilakukan dengan berbagai cara. Pengawetan secara fisik adalah dengan cara pembekuan.
-        Contohnya ketika kita mendinginkan makanan ke dalam kulkas. Dan pengawetan secara kimia dengan cara menambahkan zat kimia pengawet sesuai takaran.
+         Dan pengawetan secara kimia dengan cara menambahkan zat kimia pengawet sesuai takaran.
         Dan Pengawet memiliki 2 jenis pengawet, yaitu <b>Pengawet Alami</b> dan <b>Pengawet Buatan.</b>. Pengawet Alami yang sering digunakan : <b>Garam</b>, <b>Cuka</b>, dan <b>Bawang Putih</b>
         Sedangkan pegawet buatan yang digunakan : <b>Natrium Benzoat</b> dan <b> Asam Sorbat </b>.
 
@@ -147,64 +149,91 @@
     <div id="latihanhide" style="display:none;">
       <h3> <img src="../gambar/iconpasangkan.png"><p class="textjudul">Yuk Pasangkan ini!</p></h3>
      
-       <div class="canvas">
-        Setelah membaca materi di atas kamu pasti telah memahami bagaimana sifat kutub magnet. Untuk menguji pemahaman kamu cobalah jawab pertanyaan berikut.
-        <br><br>
-          <p><b>Petunjuk :</b></p>
-            <ol type="1" style="padding-left: 15px;">
-            <li>Soal berjumlah tiga yang terdiri dari gambar dan dua pilihan jawaban.</li>
-            <li>Soal berikutnya akan muncul setelah menjawab soal dengan benar.</li>
+      <div class="canvas">
+        <p><b>Petunjuk :</b></p>
+          <ol type="1" style="padding-left: 15px;">
+            <li>Soal berupa pilihan ganda berjumlah dua soal.</li>
+            <li>gunakan tombol dibawah soal untuk beralih ke soal yang lain.</li>
             <li>Pada saat jawaban dipilih, hasil benar atau salah akan langsung terlihat.</li>
           </ol>
-        </div>    
-        <br>
-        <div class="canvas" id="pertanyaan1" >
-            <center>
-              <b>Makanan Terang Bulan, Menggunakan Jenis Pemanis ?</b><br><br>
-            <img  src="../zat aditif/2/gambar/terbul.jpg" width="25%" height="25%"></td>
-            <br>
-             <label><input type="radio" name="soal1" id="s1benar" onclick="cek1()"/><span> Pemanis Alami</span></label>
-             <label><input type="radio"  name="soal1" id="s1salah" onclick="cek1()"/><span> Pemanis Buatan </span></label>
-              
-              <br>
-                <div class="jawaban" id="j1benar" style="display:none; "><img src="../gambar/benar.png"></div>
-                <div class="jawaban"  id="j1salah" style="display:none; "><img src="../gambar/salah.png"></div> 
-             </center>
-        </div> 
-        <br>
-        <div class="canvas" id="pertanyaan2" style="display: none;">
-          <center>
-          <b>Es Serut menggunakan Pemanis Buatan, yaitu ?</b><br><br>
-          <img  src="../zat aditif/2/gambar/esserut.jpg" width="25%" height="25%"></td>
-
-            <br>
-                <label><input type="radio" name="soal2" id="s2salah" onclick="cek2()"/><span> Gula Merah </span></label>
-                <label><input type="radio"  name="soal2" id="s2benar" onclick="cek2()"/><span> Susu Kental Manis </span></label>
-          <br>
-            <div class="jawaban" id="j2benar" style="display:none; "><img src="../../gambar/benar.png"></div>
-            <div class="jawaban"  id="j2salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
-         </center>
-      </div> 
+      </div>    
+        <div class="canvas" style="background-color: seashell;">
+         <!--Soal 1-->
+            <div class="soal" id="soal1sow">
+              <b>Monosodium Glutamat (MSG) adalah zat aditif pada makanan yang berfungsi sebagai ?</b><br><br>
+              <table cellpadding="10">
+              <tr>
+                <td><label><input type="radio" name="soal"  id="qsoal1" onclick="cek1()"/><span> Penyedap</span></label></td>
+                <td>
+              <div style="display: none;" id="s1"><img style="width: 30px;" src="../../gambar/benar.png"></div>
+              </td>
+              </tr>
+              <tr>
+                <td><label><input type="radio" name="soal" id="soal2" onclick="cek1()"/><span> Pemanis</span></label></td>
+                <td>
+              <div style="display: none;" id="s2"><img style="width: 30px;" src="../../gambar/salah.png"></div>
+                </td>
+        </tr>
+        <tr>
+          <td><label><input type="radio" name="soal"  id="soal3" onclick="cek1()"/><span>	Pewarna </span></label></td>
+          <td>
+            <div style="display: none;" id="s3"><img style="width: 30px;" src="../../gambar/salah.png"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><label><input type="radio" name="soal"  id="soal4"  onclick="cek1()"/><span>	Pengawet </span></label></td>
+          <td>
+            <div style="display: none;" id="s4"><img style="width: 30px;" src="../../gambar/salah.png"></div>
+          </td>
+        </tr>
+      </table>
       <br>
-      <div class="canvas" id="pertanyaan3" style="display: none;">
-        <center>
-          <b>Pisang Keju menggunakan Pemanis Alami dan Buatan, yaitu ?</b><br><br>
-          <img  src="../zat aditif/2/gambar/pisangkeju.jpg" width="25%" height="25%"></td>
-          <br>
-                <label><input type="radio" name="soal2" id="s3salah" onclick="cek3()"/><span> Susu Kental Manis & Keju </span></label>
-                <label><input type="radio"  name="soal2" id="s3benar" onclick="cek3()"/><span> Susu Kental Manis & <i>Palm Sugar</i> </span></label>
-          <br>
-            <div class="jawaban" id="j3benar" style="display:none; "><img src="../../gambar/benar.png"></div>
-            <div class="jawaban"  id="j3salah" style="display:none; "><img src="../../gambar/salah.png"></div> 
-         </center>
-      </div>
-
     </div>
+ <!--Soal 2-->
+ <div class="soal" id="soal2sow" style="display:none;">
+     <b>  Pengawet digunakan dalam pembuatan bahan makanan, karena ....</b><br><br>
+      <table cellpadding="10">
+      <tr>
+        <td><label><input type="radio" name="soal2"  id="q2soal1" onclick="cek2()"/><span> mempermudah dalam pengemasan untuk pendistribusian 	</span></label></td>
+        <td>
+          <div style="display: none;" id="q2s1"><img style="width: 30px;" src="../../gambar/salah.png"></div>
+        </td>
+      </tr>
+      <tr>
+        <td><label><input type="radio" name="soal2" id="q2soal2" onclick="cek2()"/><span> membantu proses penumbuhan berbagai mikroorganisme pada bahan makanan	 </span></label></td>
+        <td>
+          <div style="display: none;" id="q2s2"><img style="width: 30px;" src="../../gambar/salah.png"></div>
+        </td>
+      </tr>
+      <tr>
+        <td><label><input type="radio" name="soal2"  id="q2soal3" onclick="cek2()"/><span> mencegah reaksi kimia tertentu pada bahan makanan </span></label></td>
+        <td>
+          <div style="display: none;" id="q2s3"><img style="width: 30px;" src="../../gambar/benar.png"></div>
+        </td>
+      </tr>
+      <tr>
+        <td><label><input type="radio" name="soal2"  id="q2soal4" onclick="cek2()"/><span> mencegah makanan dikonsumsi dalam jangka waktu tertentu </span></label></td>
+        <td>
+          <div style="display: none;" id="q2s4"><img style="width: 30px;" src="../../gambar/salah.png"></div>
+        </td>
+      </tr>
+      </table>
+    <br>
+    </div>
+    <center>
+      <button class="btnkecil" style="background:black;" id="tombol1" onclick="soal1_sow()" type="button">1</button>
+      <button class="btnkecil" style="background: #04709b;" id="tombol2" onclick="soal2_sow()" type="button">2</button>
+    </center>
+    </div>
+  <br>
+          
+      </div>
     </div>
 
     <!--untuk mengakses file javascript-->
     <script src="../navigasi.js"></script>
     <script src="2.js"></script>
+    <script src="4.js"></script>
 
     <!--framework untuk MathJax/latex (untuk menulis rumus)-->
     <script type="text/javascript" async
