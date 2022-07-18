@@ -113,7 +113,7 @@ nav ul{
 }
 nav ul li{
   line-height: 60px;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.144);
+  border-bottom: 0.5px solid rgba(196, 103, 27, 0.144);
 }
 nav ul li:last-child{
   border-bottom: 0px solid rgba(255,255,255,0.05);
@@ -131,7 +131,7 @@ nav ul li a{
 
 nav ul li a:hover{
   background: #1b1b1b;
-  color:cyan;
+  color:rgb(201, 139, 6);
  
 }
 nav ul ul{
@@ -214,7 +214,7 @@ nav ul li a span.rotate{
   width: 80%;
   padding-right: 8%;
   padding-left: 7%;
-  color: black;
+  color: rgb(0, 0, 0);
   overflow:scroll;
 	overflow:auto;
   font-family: poppins,Arial,sans-serif;
