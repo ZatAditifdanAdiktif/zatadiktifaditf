@@ -13,9 +13,9 @@ let produk = document.querySelector('.produk');
 
       $('nav ul .kemagnetan-tampil').removeClass("show1").hide(100);
       $('nav ul .produk-tampil').removeClass("show2").hide(100);
-      migrasi.style.background="#01709c";
-      kemagnetan.style.background="#007cad";
-      produk.style.background="#007cad";
+      migrasi.style.background="#e68a00";
+      kemagnetan.style.background="#e68a00";
+      produk.style.background="#e68a00";
     });
     $('.kemagnetan').click(function(){
       $('nav ul .kemagnetan-tampil').toggleClass("show1");
@@ -24,9 +24,9 @@ let produk = document.querySelector('.produk');
       $('nav ul .migrasi-tampil').removeClass("show").hide(100);
       $('nav ul .produk-tampil').removeClass("show2").hide(100);
       
-      kemagnetan.style.background="#01709c";
-      migrasi.style.background="#007cad";
-      produk.style.background="#007cad";
+      kemagnetan.style.background="#e68a00";
+      migrasi.style.background="##e68a00";
+      produk.style.background="#e68a00";
     });
     $('.produk').click(function(){
       $('nav ul .produk-tampil').toggleClass("show2");
@@ -35,10 +35,10 @@ let produk = document.querySelector('.produk');
       $('nav ul .kemagnetan-tampil').removeClass("show1").hide(100);
       $('nav ul .migrasi-tampil').removeClass("show").hide(100);
 
-      produk.style.background="#01709c";
+      produk.style.background="#e68a00";
 
-      kemagnetan.style.background="#007cad";
-      migrasi.style.background="#007cad";
+      kemagnetan.style.background="#e68a00";
+      migrasi.style.background="#e68a00";
     });
     $('nav ul li').click(function(){
       $(this).addClass("beranda").siblings().removeClass("beranda");
