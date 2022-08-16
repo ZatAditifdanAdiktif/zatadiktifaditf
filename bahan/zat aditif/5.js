@@ -152,7 +152,7 @@ function soal1_sow(){
     soal3sow.style.display="";
   
     tombol1.style.background="#04709b";
-    tombol2.style.background="black";
-    tombol3.style.background="#04709b";
+    tombol2.style.background="#04709b";
+    tombol3.style.background="black";
   
   }
