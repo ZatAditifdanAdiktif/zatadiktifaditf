@@ -92,22 +92,21 @@ function cek2(){
 function soal1_sow(){
     soal1sow.style.display="";
     soal2sow.style.display="none";
-    soal3sow.style.display="none";
-  
+
+
     tombol1.style.background="black";
     tombol2.style.background="#04709b";
-    tombol3.style.background="#04709b";
-  
-  
-  
-  }
-  function soal2_sow(){
+
+
+
+
+}
+function soal2_sow(){
     soal1sow.style.display="none";
     soal2sow.style.display="";
-    soal3sow.style.display="none";
-  
+
+
     tombol1.style.background="#04709b";
     tombol2.style.background="black";
-    tombol3.style.background="#04709b";
   
   }

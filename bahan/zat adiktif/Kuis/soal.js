@@ -61,24 +61,18 @@ function mulai() {
     if (kelasnya.value != "0") {
        
         if (kelasnya.value == "1") {
-            kelasfix = "9A";
+            kelasfix = "8A";
         } else if (kelasnya.value == "2") {
-            kelasfix = "9B";
+            kelasfix = "8B";
         } else if (kelasnya.value == "3") {
-            kelasfix = "9C";
+            kelasfix = "8C";
         } else if (kelasnya.value == "4") {
-            kelasfix = "9D";
+            kelasfix = "8D";
         } else if (kelasnya.value == "5") {
-            kelasfix = "9E";
+            kelasfix = "8E";
         } else if (kelasnya.value == "6") {
-            kelasfix = "9F";
-        } else if (kelasnya.value == "7") {
-            kelasfix = "9G";
-        } else if (kelasnya.value == "8") {
-            kelasfix = "9H";
-        } else if (kelasnya.value == "9") {
-            kelasfix = "9I";
-        }
+            kelasfix = "8F";
+        } 
         cek += 1;
     }
 

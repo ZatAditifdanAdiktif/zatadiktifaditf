@@ -24,7 +24,7 @@ let produk = document.querySelector('.produk');
       $('nav ul .migrasi-tampil').removeClass("show").hide(100);
       $('nav ul .produk-tampil').removeClass("show2").hide(100);
       
-      kemagnetan.style.background="#e68a00";
+      kemagnetan.style.background="#black";
       migrasi.style.background="#e68a00";
       produk.style.background="#e68a00";
     });

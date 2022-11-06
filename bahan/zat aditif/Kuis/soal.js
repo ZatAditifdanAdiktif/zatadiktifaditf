@@ -63,24 +63,18 @@ function mulai() {
     if (kelasnya.value != "0") {
        
         if (kelasnya.value == "1") {
-            kelasfix = "9A";
+            kelasfix = "8A";
         } else if (kelasnya.value == "2") {
-            kelasfix = "9B";
+            kelasfix = "8B";
         } else if (kelasnya.value == "3") {
-            kelasfix = "9C";
+            kelasfix = "8C";
         } else if (kelasnya.value == "4") {
-            kelasfix = "9D";
+            kelasfix = "8D";
         } else if (kelasnya.value == "5") {
-            kelasfix = "9E";
+            kelasfix = "8E";
         } else if (kelasnya.value == "6") {
-            kelasfix = "9F";
-        } else if (kelasnya.value == "7") {
-            kelasfix = "9G";
-        } else if (kelasnya.value == "8") {
-            kelasfix = "9H";
-        } else if (kelasnya.value == "9") {
-            kelasfix = "9I";
-        }
+            kelasfix = "8F";
+        } 
         cek += 1;
     }
 
@@ -88,7 +82,7 @@ function mulai() {
     if (sekolah.value != "0") {
 
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 2 Banjarmasin";
+            sekolahfix = "SMP Negeri 8 Banjarmasin";
         } 
         cek += 1;
     }
@@ -179,7 +173,7 @@ $(document).ready(function(){
 });
 //==========================
 function isiRandArray(){
-    for(let i=0;i<10;i++){
+    for(let i=0;i<5;i++){
         var x=rand[i];
         randArray[i]=emptyArray[x];
     }
@@ -240,7 +234,7 @@ function next(){
     var indexx=rand[bantu];
 
 
-    if(batas_soal<=10){
+    if(batas_soal<=5){
         firebase.database().ref().child("soalKuis1").orderByChild("soalid").equalTo(emptyArray[indexx]).once("value", function(snapshot){
             snapshot.forEach(function(childSnapshot){
                 var soalid=childSnapshot.child("soalid").val();
@@ -1014,7 +1008,7 @@ function selesai(){
          
          for(let c=0;c<emptyArray.length;c++){
             if(benar_salah[c]=="benar"){
-                skor=skor+10;
+                skor=skor+20;
             }
         }
 		 createTask(sekolahfix, namanya.value.toUpperCase(), kelasfix, waktunya, harinya, simpan_jwb,skor,benar_salah);
@@ -1054,7 +1048,7 @@ function selesai(){
 
         //  console.log(simpan_jwb);
         //  console.log(jwb_rand);
-        //  console.log(emptyArray);
+        console.log(kkm);
         console.log(simpan_skor);
        
     } 
