@@ -169,31 +169,13 @@ button{
     background: white;
 }
 @media screen and (max-width:600px){
-    .canvaskecil{
-        margin-left: 1%;
-        width: 94%;
-    }
-    .pertanyaan{
-      padding-top: 8%;
-      padding-bottom: 8%;
-      min-height: 50px;
-    }
-    .pilihan{
-      width: 97%;
-    }
-    button {
-      margin-left: 0%;
-      min-width: 30px;
-      
-    }
-    .btnkecil{
-      width: 30px;
-      height: 25px;
-    }
-    .pertanyaanbd img{
-      width: 100%;
-    }
-    .judul{
-      margin-top: 50px;
+    #badan{
+        width: 40%;
+        min-height: 50%;
+        padding: 10px;
+    
+       position: absolute;
+       top:10%;
+       left: 30%;
     }
 }
