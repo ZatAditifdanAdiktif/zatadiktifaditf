@@ -234,7 +234,7 @@ function next(){
     var indexx=rand[bantu];
 
 
-    if(batas_soal<=20){
+    if(batas_soal<=15){
         firebase.database().ref().child("soalEvaluasi").orderByChild("soalid").equalTo(emptyArray[indexx]).once("value", function(snapshot){
             snapshot.forEach(function(childSnapshot){
                 var soalid=childSnapshot.child("soalid").val();
