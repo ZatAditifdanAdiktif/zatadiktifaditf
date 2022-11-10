@@ -171,7 +171,7 @@ button{
 @media screen and (max-width:760px){
     #badan{
         width: 50%;
-        min-height: 50%;
+        min-height: 60%;
         padding: 10px;
     }
 }
