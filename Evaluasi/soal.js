@@ -1184,7 +1184,7 @@ function createTask(sekolah, nama, kelas, waktunya, hari, simpan_jwb,skor,benar_
         benar_salah:benar_salah
     }
 
-    let db = firebase.database().ref("pretes/" + counter);
+    let db = firebase.database().ref("evaluasi/" + counter);
     db.set(task);
 
 }
