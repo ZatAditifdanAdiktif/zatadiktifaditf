@@ -173,7 +173,7 @@ $(document).ready(function(){
 });
 //==========================
 function isiRandArray(){
-    for(let i=0;i<15;i++){
+    for(let i=0;i<20;i++){
         var x=rand[i];
         randArray[i]=emptyArray[x];
     }

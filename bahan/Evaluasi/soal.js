@@ -61,23 +61,23 @@ function mulai() {
     if (kelasnya.value != "0") {
        
         if (kelasnya.value == "1") {
-            kelasfix = "9A";
+            kelasfix = "8A";
         } else if (kelasnya.value == "2") {
-            kelasfix = "9B";
+            kelasfix = "8B";
         } else if (kelasnya.value == "3") {
-            kelasfix = "9C";
+            kelasfix = "8C";
         } else if (kelasnya.value == "4") {
-            kelasfix = "9D";
+            kelasfix = "8D";
         } else if (kelasnya.value == "5") {
-            kelasfix = "9E";
+            kelasfix = "8E";
         } else if (kelasnya.value == "6") {
-            kelasfix = "9F";
+            kelasfix = "8F";
         } else if (kelasnya.value == "7") {
-            kelasfix = "9G";
+            kelasfix = "8G";
         } else if (kelasnya.value == "8") {
-            kelasfix = "9H";
+            kelasfix = "8H";
         } else if (kelasnya.value == "9") {
-            kelasfix = "9I";
+            kelasfix = "8I";
         }
         cek += 1;
     }
@@ -86,7 +86,7 @@ function mulai() {
     if (sekolah.value != "0") {
 
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 2 Banjarmasin";
+            sekolahfix = "SMP Negeri 8 Banjarmasin";
         } 
         cek += 1;
     }
