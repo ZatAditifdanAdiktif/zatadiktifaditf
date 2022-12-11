@@ -24,7 +24,7 @@
 window.onload =function(){
     
 
-    navigasi.style.display="none";
+    
     hasil_skor.style.display="none";
     let noomor = document.querySelector('#no_soal');
     noomor.innerText="1";
