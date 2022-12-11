@@ -178,4 +178,14 @@ button{
         left: 20%;
        
     }
+    .navigasi{
+        position: absolute;
+        top: 12.5%;
+        left:12%;
+        background-color: white;
+        width: 17%;
+        height: 443px;
+        border-radius: 9px;
+        padding: 25px;
+    }
 }

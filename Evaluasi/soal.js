@@ -24,7 +24,7 @@
 window.onload =function(){
     
 
-    
+    navigasi.style.display="none";
     hasil_skor.style.display="none";
     let noomor = document.querySelector('#no_soal');
     noomor.innerText="1";
@@ -1235,7 +1235,7 @@ function selesai(){
 
          hasil_skor.style.display="";
          badan.style.display="none";
-     
+         navigasi.style.display="";
 
          if (skor>=kkm){
             gagal.style.display="none";

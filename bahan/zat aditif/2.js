@@ -52,8 +52,6 @@ if(document.getElementById("s2benar").checked) {
  if(document.getElementById("s2salah").checked){
      j2salah.style.display="";
      j2benar.style.display="none";
-     
-
  }
 }
 
