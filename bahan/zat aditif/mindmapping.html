@@ -4,6 +4,12 @@
 	
 	<style type="text/css">
 
+	#reset_button{
+		width: 100px;
+		height: 500px;
+		padding: 30px;
+	}
+
 
 	/* bg */
 	#dragScriptContainer{	/* BIG DIV containing HTML needed for the entire script */
@@ -19,6 +25,7 @@
 	
 	#questionDiv{	/* Big div for all the questions */
 		/* float:left; */
+		background-image: url("1/gambar/background.jpg");
 		height:440px;
 		width:100%;
 		border:1px solid #000;
@@ -34,7 +41,9 @@
 		margin-top: 10px;	
 	}
 	
-	#questionDiv div,#answerDiv div,#dragContent div {
+	#questionDiv div,#answerDiv div,#dragContent {
+
+     
 		width:100px;
 		height:20px;
 		line-height:20px;
@@ -510,12 +519,13 @@
 					<div class="dragDropSmallBox" id="q4">Pengemulsi</div>
 					<div class="dragDropSmallBox" id="q5">Pengental</div>
 					<div class="dragDropSmallBox" id="q6">Penyedap</div>
-					<div class="dragDropSmallBox" id="q7">Pemberi Aroma</div>
+					<div class="dragDropSmallBox" id="q7">Pemberi Aroma</div> <br><br>
+			<input id="reset_button" type="button" onclick="dragDropResetForm();return false" value="Reset">
 			</div>
 			</center>
 		</div>
 		<div id="dragContent"></div>
-		<input type="button" onclick="dragDropResetForm();return false" value="Reset">
+		
 	</body>
 </html>
 	

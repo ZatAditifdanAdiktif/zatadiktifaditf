@@ -59,11 +59,8 @@ var q2s2=document.getElementById("q2s2");
 var q2s3=document.getElementById("q2s3");
 var q2s4=document.getElementById("q2s4");
 
-function cek2(){
-
-    
+function cek2(){   
     if(document.getElementById("q2soal1").checked) {
-  
         q2s1.style.display="";
     } else{
         q2s1.style.display="none";
