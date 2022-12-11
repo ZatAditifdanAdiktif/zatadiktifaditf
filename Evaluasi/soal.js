@@ -1235,7 +1235,7 @@ function selesai(){
 
          hasil_skor.style.display="";
          badan.style.display="none";
-         navigasi.style.display="none";
+     
 
          if (skor>=kkm){
             gagal.style.display="none";
