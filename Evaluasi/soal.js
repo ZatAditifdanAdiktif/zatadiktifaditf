@@ -1191,11 +1191,11 @@ function createTask(sekolah, nama, kelas, waktunya, hari, simpan_jwb,skor,benar_
 
 function selesai(){
     var jwb=0;
-    for (let b=0;b<15;b++){
+    for (let b=0;b<20;b++){
       jwb=jwb+total_terjawab[b];
     }
 
-    if (jwb != 15){
+    if (jwb != ){
         alert("Masih ada soal yang belum terjawab");
     }else{
         
