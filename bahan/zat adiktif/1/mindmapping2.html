@@ -8,13 +8,12 @@
 		width: 100px;
 		height: 500px;
 		padding: 30px;
-		margin-top: 300px;
 	}
 
 
 	/* bg */
 	#dragScriptContainer{	/* BIG DIV containing HTML needed for the entire script */
-		width:1000px;
+		width:630px;
 		margin:0 auto;
 		color: #000;
 		/* border:1px solid rgb(136, 129, 129); */
@@ -26,25 +25,23 @@
 	
 	#questionDiv{	/* Big div for all the questions */
 		/* float:left; */
-		background-image: url("1/gambar/backgroundmindmapping.jpg");
+		background-image: url("background.jpg");
 		height:440px;
 		width:100%;
-		margin-left: -300px;
-		/* border:1px solid #000; */
-		padding:287px;
+		border:1px solid #000;
+		padding:2px;
 		
 	}
 	#answerDiv{	/* Big div for all the answers */
 		/* float:right; */
-		height:218px;
-		width: 1245px;
-		border:4px solid #000;
+		height:auto;
+		width:100%;
+		border:1px solid #000;
 		padding:2px;
-		margin-top: -20px;	
-		margin-left: -130px;
+		margin-top: 10px;	
 	}
 	
-	#questionDiv div,#dragContent {
+	#questionDiv div,#answerDiv div,#dragContent {
 
      
 		width:100px;
@@ -56,21 +53,20 @@
 	}
 
 	#questionDiv div{
-		width: 188px;
+		width: 250px;
 		height: auto;
 	}
 
 	#answerDiv div{
-		
 		 display: inline-block;
-		 width: 104px;
+		 width: auto;
 		 padding: 5px 10px;
 	}	
 
 	.bgdestination{
-		padding: 20px;
-		background-color: rgb(178, 0, 0);
-		/* border: 1px solid black; */
+		padding: 10px;
+		background-color: rgb(218, 125, 241);
+		border: 1px solid black;
 		border-radius: 5px;
 	}
 	
@@ -88,7 +84,7 @@
 		border:1px solid #000;
 		width : px;
 		cursor:pointer;
-		background-color:#d3d7d7;
+		background-color:#E2EBED;
 	}
 	
 	#questionDiv div div{
@@ -99,8 +95,8 @@
 	}
 	#questionDiv .destinationBox{
 		border:0px;
-		background-color:rgb(255, 255, 255);
-		width:189px;
+		background-color:#DDD;
+		width:250px;
 		height:22px;
 		margin-top: 3px;
 	}
@@ -138,102 +134,39 @@
 	.qq1{
 		position: absolute;
 		top: 50px;
-		left: 361px;
+		left: 205px;
 	}
 
 	.qq2{
 		position: absolute;
 		top: 140px;
-		left: -180px;
+		left: 20px;
 	}
 	.qq3{
 		position: absolute;
 		top: 140px;
-		left:173px;
+		left:360px;
 	}
 	.qq4{
 		position: absolute;
-		top: 272px;
-		left:175px;
+		top: 240px;
+		left:360px;
 	}
 	.qq5{
 		position: absolute;
-		top: 375px;
-		left:-180px;
+		top: 325px;
+		left:20px;
 	}
 	.qq6{
 		position: absolute;
-		top: 265px;
-		left:-180px;
+		top: 240px;
+		left:20px;
 	}
 	.qq7{
 		position: absolute;
-		top: 382px;
-		left: 177px;
+		top: 325px;
+		left: 360px;
 	}
-
-	.qq8{
-		position: absolute;
-		top: 141px;
-		left: 540px;
-	}
-
-	.qq9{
-		position: absolute;
-		top: 273px;
-		left: 540px;
-	}
-	.qq10{
-		position: absolute;
-		top: 382px;
-		left: 539px;
-	}
-	.qq11{
-		position: absolute;
-		top: 142px;
-		left: 838px;
-	}
-	.qq12{
-		position: absolute;
-		top: 278px;
-		left: 838px;
-	}
-	.qq13{
-		position: absolute;
-		top: 379px;
-		left: 839px;
-	}
-	.qq14{
-		position: absolute;
-		top: 491px;
-		left: 345px;
-	}
-	.qq15{
-		position: absolute;
-		top: 629px;
-		left: 347px;
-	}
-	.qq16{
-		position: absolute;
-		top: 489px;
-		left: -11px;
-	}
-	.qq17{
-		position: absolute;
-		top: 637px;
-		left: -11px;
-	}
-	.qq18{
-		position: absolute;
-		top: 749px;
-		left: -11px;
-	}
-	.qq19{
-		position: absolute;
-		top: 489px;
-		left: 686px;
-	}
-
 
 	
 
@@ -544,99 +477,26 @@
 			<div id="dragScriptContainer">
 			<div id="questionDiv">
 				<div class="bgdestination qq1">
-					<div class="dragDropSmallBox" id="q1">Zat Aditif</div>
-					<!-- <div class="destinationBox"></div> -->
+					<div class="dragDropSmallBox" id="q1">Zat yang bisa membuat ketagihan</div>
+					<div class="destinationBox"></div>
 				</div>
-
 				<div class="bgdestination qq2">
-					<div class="dragDropSmallBox" id="q2">Zat Aditif Yang Memberikan Warna</div>
+					<div class="dragDropSmallBox" id="q2">Yang terdapat pada Teh atau Kopi</div>
 					<div class="destinationBox"></div>
 				</div>
-			
 				<div class="bgdestination qq3">
-					<div class="dragDropSmallBox" id="q3">Zat Adiktif Yang Memberikan Rasa Manis</div>
+					<div class="dragDropSmallBox" id="q3">Yang membuat ketagihan pada Rokok</div>
 					<div class="destinationBox"></div>
 				</div>
-
 				<div class="bgdestination qq4">
-					<div class="dragDropSmallBox" id="q4">Contoh Alami</div>
+					<div class="dragDropSmallBox" id="q4">Zat Adiktif yang tidak diperbolehkan oleh Hukum</div>
 					<div class="destinationBox"></div>
 				</div>	
-
 				<div class="bgdestination qq5">
-					<div class="dragDropSmallBox" id="q5">Contoh Buatan</div>
+					<div class="dragDropSmallBox" id="q5">Zat atau Obat alamiah yang bukan Narkotika</div>
 					<div class="destinationBox"></div>
 				</div>
 					
-				<div class="bgdestination qq6">
-					<div class="dragDropSmallBox" id="q6">Contoh Alami</div>
-					<div class="destinationBox"></div>
-				</div>
-				
-				<div class="bgdestination qq7">
-					<div class="dragDropSmallBox" id="q7">Contoh Buatan</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq8">
-					<div class="dragDropSmallBox" id="q8">Zat Aditif Yang Memberikan Bermacam Rasa</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq9">
-					<div class="dragDropSmallBox" id="q9">Contoh Alami</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq10">
-					<div class="dragDropSmallBox" id="q10">Contoh Buatan</div>
-					<div class="destinationBox"></div>
-				</div>
-			
-				<div class="bgdestination qq11">
-					<div class="dragDropSmallBox" id="q11">Zat Aditif Yang Membuat Makanan Bertahan Lebih Lama</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq12">
-					<div class="dragDropSmallBox" id="q12">Contoh Alami</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq13">
-					<div class="dragDropSmallBox" id="q13">Contoh Buatan</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq14">
-					<div class="dragDropSmallBox" id="q14">Zat Aditif Yang Membuat Dua Bahan Menjadi Satu</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq15">
-					<div class="dragDropSmallBox" id="q15">Contoh Buatan</div>
-					<div class="destinationBox"></div>
-				</div>
-				
-				<div class="bgdestination qq16">
-					<div class="dragDropSmallBox" id="q16">Zat Aditif Yang Melekatkan Makanan Yang Dicampur Air</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq17">
-					<div class="dragDropSmallBox" id="q17">Contoh Alami</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq18">
-					<div class="dragDropSmallBox" id="q18">Contoh Buatan</div>
-					<div class="destinationBox"></div>
-				</div>
-
-				<div class="bgdestination qq19">
-					<div class="dragDropSmallBox" id="q19">Zat Aditif Memberikan Bau Pada Makanan</div>
-					<div class="destinationBox"></div>
-				</div>
 				
 				
 			</div>
@@ -644,31 +504,15 @@
 			
 			<center>
 			<div id="answerDiv">
-					<center><b>KOLOM JAWABAN</b></center><br>
-					<div class="dragDropSmallBox" id="q1">Zat Aditif</div>
-					<div class="dragDropSmallBox" id="q2">Pewarna</div>
-					<div class="dragDropSmallBox" id="q3">Pemanis</div>
-					<div class="dragDropSmallBox" id="q4">Gula Pasir</div>
-					<div class="dragDropSmallBox" id="q5">Siklamat</div>
-					<div class="dragDropSmallBox" id="q6">Kunyit</div>
-					<div class="dragDropSmallBox" id="q7">Pemberi Aroma</div> <br><br>
-					<div class="dragDropSmallBox" id="q8">Penyedap</div>
-					<div class="dragDropSmallBox" id="q9">MSG</div>
-					<div class="dragDropSmallBox" id="q10">Bawang Putih</div>
-					<div class="dragDropSmallBox" id="q11">Pengawet</div>
-					<div class="dragDropSmallBox" id="q12">Garam</div>
-					<div class="dragDropSmallBox" id="q13">Asam Sorbat</div>
-					<div class="dragDropSmallBox" id="q14">Pengemulsi</div>
-					<div class="dragDropSmallBox" id="q15">Lesitin</div>
-					<div class="dragDropSmallBox" id="q16">Pengental</div>
-					<div class="dragDropSmallBox" id="q17">Tepung Kanji</div>
-					<div class="dragDropSmallBox" id="q18">Xanthan Gum</div>
-					<div class="dragDropSmallBox" id="q19">Pemberi Aroma</div>
-
-					 
-			
-			</div>
+					<div class="dragDropSmallBox" id="q1">Zat Adiktif</div>
+					<div class="dragDropSmallBox" id="q2">Kafein</div>
+					<div class="dragDropSmallBox" id="q3">Nikotin</div>
+					<div class="dragDropSmallBox" id="q4">Narkotika</div>
+					<div class="dragDropSmallBox" id="q5">Kafein</div>
+					<div class="dragDropSmallBox" id="q6">Psikotropika</div>
+				<br><br>
 			<input id="reset_button" type="button" onclick="dragDropResetForm();return false" value="Reset">
+			</div>
 			</center>
 		</div>
 		<div id="dragContent"></div>
