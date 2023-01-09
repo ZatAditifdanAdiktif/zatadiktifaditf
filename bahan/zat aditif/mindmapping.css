@@ -1,0 +1,105 @@
+/* NEVER CHANGE THIS */
+	#dragContent{
+		position:absolute;
+		display:none;
+		
+	}	
+	
+	.qq1{
+		position: absolute;
+		top: 50px;
+		left: 361px;
+	}
+
+	.qq2{
+		position: absolute;
+		top: 140px;
+		left: -180px;
+	}
+	.qq3{
+		position: absolute;
+		top: 140px;
+		left:173px;
+	}
+	.qq4{
+		position: absolute;
+		top: 272px;
+		left:175px;
+	}
+	.qq5{
+		position: absolute;
+		top: 375px;
+		left:-180px;
+	}
+	.qq6{
+		position: absolute;
+		top: 265px;
+		left:-180px;
+	}
+	.qq7{
+		position: absolute;
+		top: 382px;
+		left: 177px;
+	}
+
+	.qq8{
+		position: absolute;
+		top: 141px;
+		left: 540px;
+	}
+
+	.qq9{
+		position: absolute;
+		top: 273px;
+		left: 540px;
+	}
+	.qq10{
+		position: absolute;
+		top: 382px;
+		left: 539px;
+	}
+	.qq11{
+		position: absolute;
+		top: 142px;
+		left: 838px;
+	}
+	.qq12{
+		position: absolute;
+		top: 278px;
+		left: 838px;
+	}
+	.qq13{
+		position: absolute;
+		top: 379px;
+		left: 839px;
+	}
+	.qq14{
+		position: absolute;
+		top: 491px;
+		left: 345px;
+	}
+	.qq15{
+		position: absolute;
+		top: 629px;
+		left: 347px;
+	}
+	.qq16{
+		position: absolute;
+		top: 489px;
+		left: -11px;
+	}
+	.qq17{
+		position: absolute;
+		top: 637px;
+		left: -11px;
+	}
+	.qq18{
+		position: absolute;
+		top: 749px;
+		left: -11px;
+	}
+	.qq19{
+		position: absolute;
+		top: 489px;
+		left: 686px;
+	}
