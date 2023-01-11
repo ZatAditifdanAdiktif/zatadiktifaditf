@@ -346,6 +346,11 @@ function prev(){//fungsi button sebelumnya
                 var opt2=childSnapshot.child("opt2").val();
                 var opt3=childSnapshot.child("opt3").val();
                 var opt4=childSnapshot.child("opt4").val();
+                var opt4=childSnapshot.child("opt5").val();
+                var opt4=childSnapshot.child("opt6").val();
+                var opt4=childSnapshot.child("opt7").val();
+                var opt4=childSnapshot.child("opt8").val();
+                var opt4=childSnapshot.child("opt9").val();
                 kunci_jawaban=childSnapshot.child("kunci_jawaban").val();
                 
                 
@@ -359,6 +364,16 @@ function prev(){//fungsi button sebelumnya
                     jwb3.innerHTML = opt3;
                 var jwb4 = document.getElementById("jwb4");
                     jwb4.innerHTML = opt4;
+                var jwb5 = document.getElementById("jwb5");
+                    jwb5.innerHTML = opt5;
+                var jwb6 = document.getElementById("jwb6");
+                    jwb6.innerHTML = opt6;
+                var jwb7 = document.getElementById("jwb7");
+                    jwb7.innerHTML = opt7;
+                var jwb8 = document.getElementById("jwb8");
+                    jwb8.innerHTML = opt8;
+                var jwb9 = document.getElementById("jwb9");
+                    jwb9.innerHTML = opt9;
 
             ////mengambil link gambar dan menampilkannya
             var htmls = [];
@@ -908,6 +923,16 @@ tombol10.addEventListener('click', function () {
                         jwb3.innerHTML = opt3;
                     var jwb4 = document.getElementById("jwb4");
                         jwb4.innerHTML = opt4;
+                    var jwb5 = document.getElementById("jwb5");
+                        jwb5.innerHTML = opt5;
+                    var jwb6 = document.getElementById("jwb6");
+                        jwb6.innerHTML = opt6;
+                    var jwb7 = document.getElementById("jwb7");
+                        jwb7.innerHTML = opt7;
+                    var jwb8 = document.getElementById("jwb8");
+                        jwb8.innerHTML = opt8;
+                    var jwb9 = document.getElementById("jwb9");
+                        jwb9.innerHTML = opt9;
                     
             ////mengambil link gambar dan menampilkannya
             var htmls = [];
@@ -990,11 +1015,11 @@ function createTask(sekolah, nama, kelas, waktunya, hari, simpan_jwb,skor,benar_
 
 function selesai(){
     var jwb=0;
-    for (let b=0;b<5;b++){
+    for (let b=0;b<10;b++){
       jwb=jwb+total_terjawab[b];
     }
 
-    if (jwb != 5){
+    if (jwb != 10){
         alert("Masih ada soal yang belum terjawab");
     }else{
         
